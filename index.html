@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
-
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Rock, Paper, Scissors</title>
 </head>
 
@@ -12,11 +12,18 @@
 
     <h1>Rock, Paper, Scissors</h1>
 
-    <span id="playerResult">Player:  </span>
+    <div id="choices">
+        <span id="playerResult" class="choices">Player</span>
+        <br><br><br>
+        <span id="computerResult">Computer</span>
+    </div>
     <br>
-    <span id="computerResult">Computer:  </span>
-    <br><br>
-    <span id="result">Winner:  </span>
+    <hr>
+    <br><br><br>
+    <span id="resultsAgain">
+        <span id="result">Winner: </span>
+        <input type="button" value="Play Again" onClick="window.location.reload()" id="playAgain">
+    </span>
 
     <script src="index.js"></script>
 

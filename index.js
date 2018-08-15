@@ -1,7 +1,7 @@
 let userChoice = prompt("Rock, paper, or scissors?").toLowerCase();
 
 let span1 = document.createElement("span");
-let result1 = document.createTextNode(userChoice)
+let result1 = document.createTextNode(": " + userChoice)
 span1.appendChild(result1);
 let place1 = document.getElementById("playerResult");
 place1.appendChild(span1);
@@ -17,7 +17,7 @@ if (computerChoice < 0.34) {
 }
 
 let span2 = document.createElement("span");
-let result2 = document.createTextNode(computerChoice)
+let result2 = document.createTextNode(": " + computerChoice)
 span2.appendChild(result2);
 let place2 = document.getElementById("computerResult");
 place2.appendChild(span2);

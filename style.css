@@ -1,0 +1,37 @@
+body span {
+    font-size: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#playerResult, #computerResult {
+    display: flex;
+    justify-content: center;
+}
+
+#choices, #result {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+#result {
+    border: 3px solid rgb(49, 49, 113);
+}
+
+#playAgain {
+    background-color: rgb(194, 242, 194);
+    font-size: 20px;
+    margin: 20px 20px 20px 50px;
+    padding: 20px;
+    border: 3px solid rgb(34, 100, 36);
+
+}
+
+#resultsAgain {
+    display: flex;
+    justify-content: center;
+}

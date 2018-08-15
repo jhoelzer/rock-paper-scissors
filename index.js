@@ -1,8 +1,7 @@
-let userChoice = prompt("Rock, paper, or scissors?");
-userChoice.toLowerCase();
+let userChoice = prompt("Rock, paper, or scissors?").toLowerCase();
 
 let span1 = document.createElement("span");
-let result1 = document.createTextNode(userChoice.toLowerCase())
+let result1 = document.createTextNode(userChoice)
 span1.appendChild(result1);
 let place1 = document.getElementById("playerResult");
 place1.appendChild(span1);
